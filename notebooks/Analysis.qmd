@@ -43,7 +43,6 @@ Finally, we fit a Cox proportional hazards model to the data.
 study_data <- read_csv(
   # TODO: Change "<dataset_filename>" by the name of your own dataset, e.g.:
   # file = "dat/breslow_chatterjee_1999.csv",
-  file = "dat/<dataset_filename>",
   col_types = cols(
     instit       = col_factor(),
     histol       = col_factor(),
