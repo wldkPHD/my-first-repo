@@ -40,7 +40,7 @@ git_version   <- gitr::git_version()
 # Repository ``r repo_name``
 
 <!-- TODO: Add a repository description -->
-<This is a free text repository description.>
+This is my first git/github/R
 
 # License
 
