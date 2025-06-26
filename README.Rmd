@@ -11,11 +11,11 @@ editor_options:
 
 # TODO: Substitute "<username>" by your own GitHub user name, e.g.:
 #   GITHUB_USERNAME <- "JohnDoe"
-GITHUB_USERNAME <- "<username>"
+GITHUB_USERNAME <- "wldkPHD"
 # TODO: Substitute "<author_name>" by your own name, as you want to be credited
 #   in attributions, e.g.:
 #   AUTHOR_NAME <- "John M. Doe, Ph.D."
-AUTHOR_NAME     <- "<author_name>"
+AUTHOR_NAME     <- "William Krenzer, Ph.D."
 # TODO: Change the following line to a fixed value if preferred, e.g.:
 #   creation_year   <- 2025L
 CREATION_YEAR   <- lubridate::now() |> lubridate::year()
