@@ -14,9 +14,9 @@ library(forcats)
 library(stringr)
 library(tidyr)
 library(labelled)
-# library(gtsummary) # TODO: Uncomment (& install packages if using {gtsummary})
-# library(broom)         # These two do not need to be loaded actually, but they
-# library(broom.helpers) #   need to be installed for {gtsummary} to work.
+library(gtsummary) # TODO: Uncomment (& install packages if using {gtsummary})
+library(broom)         # These two do not need to be loaded actually, but they
+library(broom.helpers) #   need to be installed for {gtsummary} to work.
 library(survival)
 
 
@@ -42,7 +42,7 @@ Finally, we fit a Cox proportional hazards model to the data.
 ## Read dataset:
 study_data <- read_csv(
   # TODO: Change "<dataset_filename>" by the name of your own dataset, e.g.:
-  # file = "dat/breslow_chatterjee_1999.csv",
+  file = "dat/breslow_chatterjee_1999.csv",
   col_types = cols(
     instit       = col_factor(),
     histol       = col_factor(),
@@ -95,7 +95,7 @@ In the following we see the descriptive statistics and the contingency table.
 
 ```{r descriptives-table}
 ## TODO: Uncomment next line if using {gtsummary}
-# study_data |> tbl_summary(include = -seqno)
+study_data |> tbl_summary(include = -seqno)
 ```
 
 <br>
